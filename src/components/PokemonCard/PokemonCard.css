@@ -1,0 +1,129 @@
+.pokemonCard{
+    width: 40rem;
+    height: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+/* .pokemonCard, .pokemonCard *{
+    border: 0.1rem solid red;
+} */
+
+.pokemonCard__header{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokemonCard__title{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.pokemonCard__type{
+    font-size: 70%;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+}
+
+.pokemonCard__labelWrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pokemonCard__type--Water{
+    background: #87A2FB;
+}
+
+.pokemonCard__type--Ground{
+    background: #CDB699;
+}
+
+.pokemonCard__type--Fire{
+    background: #FF6D28;
+}
+
+.pokemonCard__type--Ghost{
+    background: #624F82;
+}
+
+.pokemonCard__type--Psychic{
+    background: #50577A;
+}
+
+.pokemonCard__type--Poison{
+    background: #9F73AB;
+}
+
+
+
+.pokemonCard__figure{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokemonCard__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pokemonCard__h3Wrapper{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.pokemonCard__HP{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.pokemonCard__section{
+    height: 60%; 
+
+}
+
+.pokemonCard__button{
+    border: none;
+    background: none;
+    font-size: 100%;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #eee;
+    flex-grow: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pokemonCard__button--attack{
+    background: #B33030;
+}
+
+.pokemonCard__button--catch{
+    background: #6EBF8B;
+}
+
+.pokemonCard__footer{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 62.5rem) {
+    .pokemonCard{
+        width: 100%;
+    }
+}
